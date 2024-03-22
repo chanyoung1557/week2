@@ -5,8 +5,8 @@ int game(int x,int y);
 int ran();
 int main() {
     int n;
-    std::cout<<"Enter a answer: ";
-    std::cin>>n;
+    n=ran();
+    std::cout<<"Answer is "<<n<<std::endl;
     int qn;
     while (true) {
         std::cout << "Enter a guess: ";
