@@ -6,7 +6,6 @@ int ran();
 int main() {
     int n;
     n=ran();
-    std::cout<<"Answer is "<<n<<std::endl;
     int qn;
     while (true) {
         std::cout << "Enter a guess: ";
